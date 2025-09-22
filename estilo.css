@@ -268,11 +268,11 @@ section {
 footer {
     background-color: var(--dark-bg);
     border-top: 1px solid var(--bordes-color);
-    padding: 2rem 5%;
+    padding: 3rem 5%;
 }
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
