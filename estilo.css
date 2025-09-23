@@ -328,20 +328,20 @@ footer {
 }
 .conocimientos {
     padding: 5rem 0;
-    background-color:var(--dark-bg)
+    background-color: var(--dark-bg);
 }
 
 .grid-conocimientos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 
 .categoria-conocimiento {
-    background-color:var(--card-bg);
+    background-color: var(--card-bg);
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px -1px (0, 0, 0, 0.4);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4); /* corregido */
     transition: transform 0.3s ease;
     border: 1px solid #404040;
 }
@@ -360,7 +360,7 @@ footer {
 
 .lista-conocimientos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1rem;
 }
 
@@ -384,6 +384,7 @@ footer {
 .conocimiento span {
     font-weight: 500;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 .icono {
@@ -397,6 +398,7 @@ footer {
 .conocimiento:hover .icono {
     transform: scale(1.1);
 }
+
 @media (max-width: 430px){
     header {
         position: static;
